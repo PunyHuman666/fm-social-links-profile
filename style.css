@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    height: 75%;
+    border-radius: 15px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.para-green {
+    padding: 10px 0;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+
+p {
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 80%;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 8px;
+}
+
+button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
+
+button a:hover {
+    background: hsl(75, 94%, 57%);
+    border-radius: 8px;
+    color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+}
