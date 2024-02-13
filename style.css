@@ -42,6 +42,7 @@ img {
 h1 {
     font-size: 24px;
     font-weight: 600;
+    text-align: center;
 }
 
 .para-green {
@@ -53,6 +54,7 @@ h1 {
 p {
     padding: 20px 0;
     font-weight: 400;
+    text-align: center;
 }
 
 .buttons {
@@ -81,7 +83,7 @@ button a {
     height: 100%;
 }
 
-button a:hover {
+button a:hover, button a:active {
     background: hsl(75, 94%, 57%);
     border-radius: 8px;
     color: hsl(0, 0%, 8%);
@@ -90,4 +92,11 @@ button a:hover {
 .attribution {
     position: absolute;
     bottom: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    .container {
+        max-width: 350px;
+        max-height: 600px;
+    }
 }
